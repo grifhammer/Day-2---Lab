@@ -1,0 +1,119 @@
+*{
+	background-color: #ddd;
+}
+#gallery-wrapper{
+	background-color: #ddd;
+	padding-left: 4%;
+	width: 91%;
+	/*margin:auto;*/
+}
+#gallery-wrapper .image-one, #gallery-wrapper .image-two, #gallery-wrapper .image-three, #gallery-wrapper .image-four, #gallery-wrapper .image-five, #gallery-wrapper .image-six,  #gallery-wrapper .image-seven,  #gallery-wrapper .image-eight,  #gallery-wrapper .image-nine,  #gallery-wrapper .image-ten, #gallery-wrapper .image-eleven, #gallery-wrapper .extra-stuff{
+	float:left;
+	display: inline;
+	width: 30%;
+	padding: 1.5%;
+	background-color: #ddd;
+
+}
+#gallery-wrapper .image-four, #gallery-wrapper .image-five{
+	margin-top: 3%;
+}
+
+
+#gallery-wrapper .image-two, #gallery-wrapper .image-three{
+	margin-top: 2%;
+}
+
+#gallery-wrapper .image-six{
+	clear:both;
+}
+#gallery-wrapper .portrait{
+	width: 100%;
+	padding-bottom: -10%;
+	/*height: 250%;*/
+	/*height: ;*/
+}
+
+#gallery-wrapper .portrait img {
+	width: 100%;
+}
+
+#gallery-wrapper .landscape{
+	width: 100%;
+	/*height: 100px;*/
+}
+
+#gallery-wrapper .landscape img{
+	width: 100%;
+	height: 100%;
+}
+#gallery-wrapper .wide-image{
+	display: inline;
+	float:left;
+	width: 95%;
+
+}
+#gallery-wrapper .wide-image .landscape{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0 5%;
+	/*display: block;*/
+	/*height: 500px;*/
+
+}
+
+#gallery-wrapper .wide-image .caption{
+	margin-left: 5%;
+	width: 95%;
+	
+
+}
+
+#gallery-wrapper .wide-image .landscape img{
+	width: 95%;
+
+
+}
+#gallery-wrapper .image-one, #gallery-wrapper .image-six, #gallery-wrapper .image-nine{
+	margin-left: 1%;
+}
+#gallery-wrapper .caption{
+	font-family: 'Quantico';
+	width: 100%;
+	background-color: blue;
+	text-align:center;
+	color: white;
+	position: relative;
+	left:0px;
+	bottom: 19px;
+}
+
+#gallery-wrapper .extra-stuff{
+	text-align: center;
+	background-color: blue;
+	margin-top: 2%;
+	color: white;
+	font-family: serif;
+	width: 30%;
+	max-height:100%;
+	padding: 5.5% 0px;
+
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Asset';
+	/*padding-left: 6%;*/
+	color: blue;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 601px){
+	.portrait{
+		width: 47%;}
+}
+@media screen and (max-width: 600px){
+	.portrait{
+		width: 95%;
+	}
+
+}
